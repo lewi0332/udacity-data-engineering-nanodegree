@@ -116,3 +116,4 @@ data.json
 *.db
 *.cfg
 .DS_Store
+notes.md
