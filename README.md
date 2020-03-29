@@ -2,5 +2,6 @@
 
 1. Data Modeling 
 
-2. Data Warehouse
+2. Data Warehouses
 
+3. Data Lakes
