@@ -65,7 +65,7 @@ KEY='<yourkey>'
 SECRET='<yoursecret>'
 ```
 
-7. Finally, run python etl.py from the command line
+7. Finally, run `/usr/bin/spark-submit --master yarn ./etl.py` from the command line
 
 ---
 ### Output
