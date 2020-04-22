@@ -103,7 +103,7 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-plugins/
+# plugins/
 *.csv
 *.numbers
 *.json
