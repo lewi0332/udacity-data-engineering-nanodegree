@@ -70,3 +70,33 @@ Links to the three books referenced in the video:
 
 # Cloud Computing - Redshift
 
+Columnar Storage - Massively Parralelized - 
+
+**Optimizing Table Design**
+
+- When a table is partitioned up into many peices and distribued across slices in different machines, this is done blindly.
+- If one has an idea about the frequent pattern of a table, one can choose a more clever strategy
+- The 2 possible strategies are:
+- - Distribution style 
+- - Sorting key 
+
+
+**Dist Key**
+
+- EVEN Distributions - Attempts to evenly split all rows across the partitions, good if a table won't be joined. 
+- ALL Distribution - Data replicated on all partitions. Great for small dimension tables to reduce shuffling. 
+- AUTO Distribution - Leave the decision to Redshift. 
+- KEY Distribution - Rows having similar values are placed in the same slice. 
+
+High cost of join with EVEN distribution = Shuffling. 
+
+**Sort Key**
+
+Great for columns that will often be sorted by. 
+
+- Defined in set up. 
+- Redshift sorts rows before uploading 
+- Reduces query time, but increases insert time. 
+
+Great for Date dimension as it is always sorted. Then also sort the corresponding Foreign key in the fact table. 
+
