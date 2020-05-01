@@ -232,3 +232,9 @@ Port 8080 is the webui.
 - Add an intermediate data processing step on an alternative key
 
 
+# Data Lakes 
+
+Schema on Read and clustered cheaper hardware is the main point.  We can store data as files and work with it like a database. The clustereed hardware make this work much cheaper on massive data
+
+in AWS Spark notebook, remember to open a new notebook from the spark env.  Then %%spark should start a context. 
+
