@@ -27,3 +27,6 @@ Coursework for Udacity's Data Engineering NanoDegree
 - Built data lake, pipeline and data warehouse for a social media ambassador agency
 
 - https://github.com/lewi0332/Data-Pipeline-Capstone-Project
+
+
+![certificate](certificate.jpg)
