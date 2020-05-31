@@ -197,7 +197,7 @@ Running a spark Script -
 
 - To run a script: find where spark is `which spark`
 
-- Runnign a script.  Normally you would call the ip address of the master node, but on AWS EMR, yarn works. `usr/bin/spark-submit --master yarn ./myscript.py`
+- Running a script.  Normally you would call the ip address of the master node, but on AWS EMR, yarn works. `usr/bin/spark-submit --master yarn ./myscript.py`
 
 - Use a different protocol for s3 from EMR: 
 ```
